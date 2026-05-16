@@ -1,0 +1,3 @@
+{"timestamp":"2026-01-24 22:03:08","level":"INFO","logger":"PerformanceLogger","message":"PERFORMANCE | __main__.connect_mongo | SUCCESS | 9.017s | Args:  | Kwargs: ","request_id":"fbed9d95"}
+{"timestamp":"2026-01-24 22:18:20","level":"INFO","logger":"PerformanceLogger","message":"PERFORMANCE | __main__.connect_mongo | SUCCESS | 6.011s | Args:  | Kwargs: ","request_id":"5902f570"}
+{"timestamp":"2026-01-24 22:22:15","level":"INFO","logger":"PerformanceLogger","message":"PERFORMANCE | __main__.connect_mongo | SUCCESS | 6.010s | Args:  | Kwargs: ","request_id":"718a9bbf"}
