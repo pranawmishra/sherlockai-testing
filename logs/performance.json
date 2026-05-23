@@ -1,3 +1,4 @@
-{"timestamp":"2026-01-24 22:03:08","level":"INFO","logger":"PerformanceLogger","message":"PERFORMANCE | __main__.connect_mongo | SUCCESS | 9.017s | Args:  | Kwargs: ","request_id":"fbed9d95"}
-{"timestamp":"2026-01-24 22:18:20","level":"INFO","logger":"PerformanceLogger","message":"PERFORMANCE | __main__.connect_mongo | SUCCESS | 6.011s | Args:  | Kwargs: ","request_id":"5902f570"}
-{"timestamp":"2026-01-24 22:22:15","level":"INFO","logger":"PerformanceLogger","message":"PERFORMANCE | __main__.connect_mongo | SUCCESS | 6.010s | Args:  | Kwargs: ","request_id":"718a9bbf"}
+{"timestamp":"2026-05-21 15:08:45","level":"INFO","logger":"PerformanceLogger","message":"PERFORMANCE | __main__.read_root | SUCCESS | 0.544s | Args:  | Kwargs: ","request_id":"f114d777"}
+{"timestamp":"2026-05-21 15:09:45","level":"INFO","logger":"PerformanceLogger","message":"PERFORMANCE | __main__.read_root | SUCCESS | 0.344s | Args:  | Kwargs: ","request_id":"c23a7c75"}
+{"timestamp":"2026-05-21 15:10:25","level":"INFO","logger":"PerformanceLogger","message":"PERFORMANCE | __main__.read_root | SUCCESS | 0.001s | Args:  | Kwargs: ","request_id":"e9bdf08c"}
+{"timestamp":"2026-05-21 15:16:08","level":"INFO","logger":"PerformanceLogger","message":"PERFORMANCE | __main__.read_root | SUCCESS | 0.001s | Args:  | Kwargs: ","request_id":"b2c5731f"}

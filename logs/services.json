@@ -1,8 +1,0 @@
-{"timestamp":"2026-01-24 22:02:59","level":"INFO","logger":"ServiceLogger","message":"Mock MongoDB connecting.","request_id":"fbed9d95"}
-{"timestamp":"2026-01-24 22:02:59","level":"INFO","logger":"ServiceLogger","message":"Mock MongoDB querying.","request_id":"fbed9d95"}
-{"timestamp":"2026-01-24 22:03:06","level":"INFO","logger":"ServiceLogger","message":"Mock MongoDB query completed.","request_id":"fbed9d95"}
-{"timestamp":"2026-01-24 22:03:08","level":"INFO","logger":"ServiceLogger","message":"Mock MongoDB connected.","request_id":"fbed9d95"}
-{"timestamp":"2026-01-24 22:18:14","level":"INFO","logger":"ServiceLogger","message":"Mock MongoDB connecting.","request_id":"5902f570"}
-{"timestamp":"2026-01-24 22:18:20","level":"INFO","logger":"ServiceLogger","message":"Mock MongoDB connected.","request_id":"5902f570"}
-{"timestamp":"2026-01-24 22:22:09","level":"INFO","logger":"ServiceLogger","message":"Mock MongoDB connecting.","request_id":"718a9bbf"}
-{"timestamp":"2026-01-24 22:22:15","level":"INFO","logger":"ServiceLogger","message":"Mock MongoDB connected.","request_id":"718a9bbf"}

@@ -1,13 +1,13 @@
 from sherlock_ai import SherlockAI, LoggingConfig, get_logger, LoggerNames, set_request_id
 from fastapi import FastAPI, Request
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 import uvicorn
 import time
-from src.mock_db import mock_mongo
+from src.mock_db import *
 
 
-load_dotenv()
+# load_dotenv()
 
 app = FastAPI()
 
@@ -39,9 +39,14 @@ async def middleware_wrapper(request: Request, call_next):
 
 @app.get("/error")
 async def read_root():
-    logger.info("Hello, World!")
-    print(1/0) # This will raise a ZeroDivisionError
-    return {"message": "Hello, World!"}
+    try:
+        logger.info("Hello, World!")
+        print(1/0) # This will raise a ZeroDivisionError
+        return {"message": "Hello, World!"}
+    except Exception as e:
+        print(e)
+        # logger.error(f"Error: {e}")
+        # raise e
 
 
 @app.get("/performance")
@@ -53,6 +58,7 @@ async def read_root():
 @app.get("/connect_mongo")
 async def connect_mongo():
     mock_mongo()
+    mock_error()
     return {"message": "Connected to Mock MongoDB!"}
 
 
